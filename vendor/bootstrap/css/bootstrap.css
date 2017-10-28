@@ -5665,11 +5665,11 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #f28473 !important;
 }
 
 a.bg-primary:focus, a.bg-primary:hover {
-  background-color: #0062cc !important;
+  background-color: #f28473 !important;
 }
 
 .bg-secondary {
