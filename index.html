@@ -53,6 +53,7 @@
     <header class="bg-primary text-white">
       <span id="sf"></span>
       <div class="container text-center">
+        <img src="img/sf_logo_prisma.jpg" style="border-radius: 45px"/>
         <h1>Sandwich Fckrs</h1>
         <p class="lead"><b>Events &#9702; Food &#9702; Drinks</b></p>
         <p class="lead">Los Angeles, CA</p><br>
@@ -135,10 +136,10 @@
       var isElementInView = Utils.isElementInView($('#sf'), false);
       if (isElementInView) {
         $('#nav-bar-text-scroll').hide();
-        $('#nav-bar-text-def').fadeIn('slow');
+        $('#nav-bar-text-def').fadeIn('fast');
       } else {
         $('#nav-bar-text-def').hide();
-        $('#nav-bar-text-scroll').fadeIn('slow');
+        $('#nav-bar-text-scroll').fadeIn('fast');
       }
     }
     $(window).on('DOMContentLoaded load resize scroll', checker);

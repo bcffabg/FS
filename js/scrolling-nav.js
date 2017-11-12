@@ -28,7 +28,7 @@
 
 })(jQuery); // End of use strict
 
-// CUSTOM NOT PART OF TEMPLATE
+// CUSTOM NOT PART OF TEMPLATE FOR NAV BAR TEXT ON SCROLL
 
 function Utils() {
 
@@ -51,5 +51,3 @@ Utils.prototype = {
 };
 
 var Utils = new Utils();
-
-//$(document).ready(); 
