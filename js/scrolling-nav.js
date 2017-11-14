@@ -51,3 +51,17 @@ Utils.prototype = {
 };
 
 var Utils = new Utils();
+
+function checker(){
+  var isElementInView = Utils.isElementInView($('#sf'), false);
+  if (isElementInView) {
+    $('#nav-bar-text-scroll').hide();
+    $('#nav-bar-text-def').fadeIn('fast');
+    $('#sflogo').show();
+  } else {
+    $('#nav-bar-text-def').hide();
+    $('#nav-bar-text-scroll').fadeIn('fast');
+    $('#sflogo').hide();
+  }
+}
+$(window).on('DOMContentLoaded load resize scroll', checker);

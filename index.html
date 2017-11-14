@@ -25,7 +25,7 @@
   </head>
 
   <body id="page-top">
-    <img src="img/sf_logo_prisma.jpg" style="border-radius: 28px; position: fixed; z-index: 2000; left: 50%; margin-left: -37.5px; margin-top: 5px;"/>
+    <span id="sflogo"><img src="img/sf_logo_prisma.jpg" style="border-radius: 28px; position: fixed; z-index: 2000; left: 50%; margin-left: -37.5px; margin-top: 5px;"/></span>
     <!-- adjust navbar-brand text -->
 
     <!-- Navigation -->
@@ -129,21 +129,6 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-
-    <!--Custom Script NOT PART OF TEMPLATE for title adjustment-->
-    <script type="text/JavaScript">
-    function checker(){
-      var isElementInView = Utils.isElementInView($('#sf'), false);
-      if (isElementInView) {
-        $('#nav-bar-text-scroll').hide();
-        $('#nav-bar-text-def').fadeIn('fast');
-      } else {
-        $('#nav-bar-text-def').hide();
-        $('#nav-bar-text-scroll').fadeIn('fast');
-      }
-    }
-    $(window).on('DOMContentLoaded load resize scroll', checker);
-    </script>
 
   </body>
 
