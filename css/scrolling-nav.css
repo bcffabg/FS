@@ -20,4 +20,4 @@ section {
 
 /*bootstrap customization */
 .bg-dark{background-color:#882C36}
-#nav-bar-text-scroll, #mainTitle{font-family: 'Roboto', cursive;}
+#nav-bar-text-scroll, #mainTitle{font-family: 'Roboto', sans-serif;}
