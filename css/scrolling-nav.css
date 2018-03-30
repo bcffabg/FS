@@ -21,3 +21,6 @@ section {
 /*bootstrap customization */
 .bg-dark{background-color:#882C36}
 #nav-bar-text-scroll, #mainTitle{font-family: 'Roboto', sans-serif;}
+#description{
+  padding-top: 40px;
+}
