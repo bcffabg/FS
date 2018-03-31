@@ -10,7 +10,7 @@ header {
 
 @media (min-width: 992px) {
   header {
-    padding: 105px 0 100px;
+    padding: 105px 0 200px;
   }
 }
 
@@ -19,11 +19,41 @@ section {
 }
 
 /*bootstrap customization */
-.bg-dark{background-color:#882C36}
+/*.bg-dark{background-color:#882C36}*/
+.lead {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: white;
+}
+.bg-dark{background-color:#F9D41B}
+.bg-primary {
+    background-color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: black;
+}
 #nav-bar-text-scroll, #mainTitle{font-family: 'Roboto', sans-serif;}
 #descriptiontop{
   padding-top: 25px;
 }
+#navscrolltext{
+  color: black;
+}
 #description{
+  padding-top: 60px;
   padding-bottom: 20px;
+}
+#contactform{
+  background-color: rgba(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
 }
