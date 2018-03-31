@@ -20,15 +20,15 @@ section {
 
 /*bootstrap customization */
 /*.bg-dark{background-color:#882C36}*/
-.lead {
-    font-size: 1.5rem;
-    font-weight: 300;
-}
 a{
   color: black;
 }
 a:hover{
   color: white;
+}
+#emaillink a:hover{
+  color: black;
+  text-decoration: underline;
 }
 .bg-dark{background-color:#F9D41B}
 .bg-primary {
@@ -49,6 +49,7 @@ a:hover{
   color: black;
 }
 #description{
+  font-size: 2rem;
   padding-top: 60px;
   padding-bottom: 20px;
 }
