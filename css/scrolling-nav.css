@@ -58,6 +58,7 @@ a:hover{
 }
 #contactform{
   background-color: white;
+  margin-top: 80px;
   padding: 20px;
   border-radius: 10px;
 }
