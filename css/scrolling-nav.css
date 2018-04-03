@@ -71,7 +71,9 @@ p,h2,h1{
   flex-direction: row;
   justify-content: center;
 }
-#socialmedia li:nth-child(2){
+#socialmedia li{
   padding-left: 20px;
-  padding-right: 25px;
+}
+#socialmedia li:nth-child(3){
+  padding-right: 60px;
 }
