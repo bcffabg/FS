@@ -5,7 +5,8 @@
  */
 
 header {
-  padding: 105px 0 220px;
+  //padding: 105px 0 220px;
+  padding: 105px 0 100px;
 }
 
 @media (min-width: 992px) {
@@ -55,8 +56,9 @@ p,h2,h1{
   position: absolute;
 }
 #description{
-  font-size: 1.75rem;
+  font-size: 1.8rem;
   padding-top: 60px;
+  margin-left: -4px;
   padding-bottom: 20px;
 }
 #contactform{
@@ -76,4 +78,9 @@ p,h2,h1{
 }
 #socialmedia li:nth-child(3){
   padding-right: 60px;
+}
+#pl{
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
