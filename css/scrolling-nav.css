@@ -6,7 +6,7 @@
 
 header {
   //padding: 105px 0 220px;
-  padding: 105px 0 100px;
+  padding: 105px 0 20px;
 }
 
 @media (min-width: 992px) {
@@ -57,9 +57,12 @@ p,h2,h1{
 }
 #description{
   font-size: 1.8rem;
-  padding-top: 60px;
-  margin-left: -4px;
+  padding-top: 30px;
+  margin-left: -8px;
   padding-bottom: 20px;
+}
+#about{
+  padding-top: 10px;
 }
 #contactform{
   background-color: white;
@@ -74,6 +77,7 @@ p,h2,h1{
   justify-content: center;
 }
 #socialmedia li{
+  padding-top: 20px;
   padding-left: 20px;
 }
 #socialmedia li:nth-child(3){
